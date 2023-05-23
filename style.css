@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+
 
 .logo1 {
   position: relative;
@@ -7,7 +9,7 @@
 .logo1 img {
   position: absolute;
   top: -19px;
-  left: 700px;
+  left: 750px;
 }
 
 .logo2 {
@@ -17,7 +19,7 @@
 .logo2 img {
   position: absolute;
   top: -19px;
-  left: 1130px;
+  left: 1080px;
 }
 
 label {
@@ -115,7 +117,7 @@ main{
 }
 
 .movie-info span.green{
-  color: rgb(255, 255, 255);
+  color: green;
 }
 
 .movie-info span.orange{

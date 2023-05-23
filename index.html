@@ -15,7 +15,7 @@
   </div>
 
   <center>
-    <h1 style="color:white">Movie Recommender</h1>
+    <h1 style="color:white">Popular Movies</h1>
   </center>
 
   <header>
@@ -24,6 +24,7 @@
     </form>
   </header>
 
+  
   <main id="main">
     <div class="movie">
       <img src="https://hips.hearstapps.com/hmg-prod/images/c-005-1500x1000-1652713137.jpg" alt="Image">
@@ -61,34 +62,11 @@
 
   <div id="movieListContainer"></div>
 
-  <div class="container">
-    <label for="genre">Choose a genre:</label>
-    <select id="genre" name="genre">
-      <option value="">--Please choose an option--</option>
-      <option value="28">Action</option>
-      <option value="12">Adventure</option>
-      <option value="16">Animation</option>
-      <option value="35">Comedy</option>
-      <option value="80">Crime</option>
-      <option value="99">Documentary</option>
-      <option value="18">Drama</option>
-      <option value="10751">Family</option>
-      <option value="14">Fantasy</option>
-      <option value="36">History</option>
-      <option value="27">Horror</option>
-      <option value="10402">Music</option>
-      <option value="9648">Mystery</option>
-      <option value="10749">Romance</option>
-      <option value="878">Science Fiction</option>
-      <option value="53">Thriller</option>
-      <option value="10770">TV Movie</option>
-      <option value="10752">War</option>
-      <option value="37">Western</option>
-    </select>
-  </div>
-
-
-
+  <form id="searchForm">
+    <input type="text" id="searchInput" placeholder="Enter movie title">
+    <button type="submit">Search</button>
+  </form>
+  <div id="main"></div>
   
   <script src="script.js"></script>
 </body>
