@@ -9,7 +9,7 @@
 .logo1 img {
   position: absolute;
   top: -19px;
-  left: 750px;
+  left: 735px;
 }
 
 .logo2 {
@@ -142,5 +142,28 @@ main{
 
 .movie:hover .overview{
   transform:translateY(0)
+}
+
+.dropdown {
+  min-width: 15em;
+  position: relative;
+  margin: 2em;
+}
+
+#sort {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  outline: none;
+  /* Add any additional styles you want */
+}
+
+#sort:hover {
+  background-color: #f5f5f5;
+  /* Add hover styles */
 }
 

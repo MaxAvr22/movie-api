@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Movie Recommendations</title>
+  <title>Popular Movies</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,7 +19,11 @@
   </center>
 
   <header>
-    <form id="form">  
+    <form id="form">
+      <select id="sort">
+        <option value="">Sort by</option>
+        <option value="rating">Rating</option>
+      </select>
       <input type="text" placeholder="Search" id="search" class="search">
     </form>
   </header>
@@ -36,37 +40,10 @@
         hello hello hello hello hello hello hello hello hello hello hello v
       </div>
     </div>
-
-    <div class="movie">
-      <img src="https://hips.hearstapps.com/hmg-prod/images/c-005-1500x1000-1652713137.jpg" alt="Image">
-      <div class="movie-info">
-        <h3>Movie Title</h3>
-        <span class="green">9.8</span>
-      </div>
-      <div class="overview">
-        hello hello hello hello hello hello hello hello hello hello hello v
-      </div>
-    </div>
-
-    <div class="movie">
-      <img src="https://hips.hearstapps.com/hmg-prod/images/c-005-1500x1000-1652713137.jpg" alt="Image">
-      <div class="movie-info">
-        <h3>Movie Title</h3>
-        <span class="green">9.8</span>
-      </div>
-      <div class="overview">
-        hello hello hello hello hello hello hello hello hello hello hello v
-      </div>
-    </div>
   </main>
 
   <div id="movieListContainer"></div>
 
-  <form id="searchForm">
-    <input type="text" id="searchInput" placeholder="Enter movie title">
-    <button type="submit">Search</button>
-  </form>
-  <div id="main"></div>
   
   <script src="script.js"></script>
 </body>
